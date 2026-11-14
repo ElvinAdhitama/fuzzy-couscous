@@ -1,6 +1,11 @@
 User-agent: *
-Disallow: /
-
-# Izinkan bot gambar jika domain ini juga dipakai untuk hosting aset CDN
-User-agent: Googlebot-Image
 Allow: /
+
+Disallow: /api/
+Disallow: /_next/
+Disallow: /admin/
+Disallow: /search
+Disallow: /*?q=
+Disallow: /*?s=
+
+Sitemap: https://io.cdnv2.net/sitemap.xml
