@@ -8,4 +8,3 @@ Disallow: /search
 Disallow: /*?q=
 Disallow: /*?s=
 
-Sitemap: https://io.cdnv2.net/sitemap.xml
