@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /
+
+# Izinkan bot gambar jika domain ini juga dipakai untuk hosting aset CDN
+User-agent: Googlebot-Image
+Allow: /
